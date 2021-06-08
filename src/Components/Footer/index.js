@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <Container>
-      <h2>Preencha o formulário a seguir para entrar em contato cosnosco</h2>
+      <h2>Preencha o formulário a seguir para entrar em contato conosco</h2>
       <InputsContainer>
         <input placeholder="Nome" />
         <input placeholder="Email" />
