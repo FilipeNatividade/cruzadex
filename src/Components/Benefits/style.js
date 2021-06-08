@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 35px 0;
-  width: 100%;
+  width: 98.5vw;
 `;
 
 export const InternalSecondContainer = styled.div`

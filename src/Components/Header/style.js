@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 99vw;
+  width: 98.5vw;
   @media only screen and (min-width: 601px) {
     background-image: url("./images/header_img_original.svg");
     background-position: left;
@@ -15,6 +15,7 @@ export const Container = styled.div`
     height: 80vh;
     justify-content: flex-end;
     padding-top: 50px;
+    width: 98.5vw;
   }
 `;
 
@@ -38,7 +39,7 @@ export const RightHeader = styled.div`
   font-size: 20px;
   font-weight: 200;
   padding: 25px 0;
-  width: 99vw;
+  width: 98.5vw;
   @media only screen and (min-width: 601px) {
     background-color: transparent;
     margin: 0;

@@ -4,14 +4,14 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 99vw;
+  width: 98vw;
 `;
 
 export const MenuMobile = styled.nav`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 99vw;
+  width: 98vw;
   position: absolute;
   z-index: 1;
 
@@ -55,7 +55,7 @@ export const MenuContainer = styled.div`
     position: relative;
     padding: 0;
     a {
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
   }
 `;
@@ -89,9 +89,9 @@ export const Menu = styled.nav`
   @media only screen and (min-width: 601px) {
     align-items: flex-start;
     display: flex;
-    width: 99vw;
+    width: 98vw;
     justify-content: flex-end;
-    padding:5px 5px 0 0;
+    padding: 5px 5px 0 0;
     position: absolute;
   }
 `;
