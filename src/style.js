@@ -55,7 +55,7 @@ export const MenuContainer = styled.div`
     position: relative;
     padding: 0;
     a {
-      font-size: .7rem;
+      font-size: .8rem;
     }
   }
 `;

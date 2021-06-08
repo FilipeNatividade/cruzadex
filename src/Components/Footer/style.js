@@ -65,7 +65,12 @@ export const InputsContainer = styled.div`
   input {
     height: 45px;
     margin: 5px auto;
-    width: 48%;
+    width: 100%;
+  }
+  @media only screen and (min-width: 500px) {
+    input {
+    width: 47%;
+  }
   }
 `;
 
