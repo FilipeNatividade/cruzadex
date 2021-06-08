@@ -33,7 +33,7 @@ const App = () => {
             <a href="#">Sobre</a>
             <a href="#">Contato</a>
             <a href="#">Público</a>
-            <a href="">Contato</a>
+            <a href="#contato">Contato</a>
           </MenuContainer>
         )}
         <SocialNetwork>
@@ -62,13 +62,13 @@ const App = () => {
           <a href="#">Sobre</a>
           <a href="#">Contato</a>
           <a href="#">Público</a>
-          <a href="#">Contato</a>
+          <a href="#contato">Contato</a>
         </MenuContainer>
       </Menu>
-      <Header />
+      <Header  />
       <Benefits />
       <Main />
-      <Footer />
+      <Footer id='contato'/>
     </Container>
   );
 };

@@ -17,7 +17,7 @@ export const Container = styled.div`
     padding-top: 50px;
   }
   @media only screen and (min-width: 999px) {
-    height: 50vh;
+    height: 70vh;
   }
 `;
 
