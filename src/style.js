@@ -67,7 +67,7 @@ export const ImgLogo = styled.img`
 
 export const SocialNetwork = styled.div`
   display: flex;
-  margin-left: -40%;
+  margin-left: -65px;
   width: 100px;
   a {
     margin: 10px 5px;

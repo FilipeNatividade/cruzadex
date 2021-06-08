@@ -29,10 +29,9 @@ const App = () => {
         </ButtonMobileMenu>
         {showMenu && (
           <MenuContainer>
-            <a href="">Vantagens</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
-            <a href="#">Público</a>
+            <a href="#vantagens">Vantagens</a>
+            <a href="#publico">Sobre</a>
+            <a href="#publico">Público</a>
             <a href="#contato">Contato</a>
           </MenuContainer>
         )}
@@ -58,17 +57,22 @@ const App = () => {
           <a href="#">
             <img src="./images/insta_icon.svg" alt="instagram" />
           </a>
-          <a href="#">Vantagens</a>
-          <a href="#">Sobre</a>
-          <a href="#">Contato</a>
-          <a href="#">Público</a>
+          <a href="#vantagens">Vantagens</a>
+          <a href="#publico">Sobre</a>
+          <a href="#publico">Público</a>
           <a href="#contato">Contato</a>
         </MenuContainer>
       </Menu>
-      <Header  />
-      <Benefits />
-      <Main />
-      <Footer id='contato'/>
+      <Header />
+      <a name="vantagens">
+        <Benefits />
+      </a>
+      <a name="publico">
+        <Main />
+      </a>
+      <a name="contato">
+        <Footer />
+      </a>
     </Container>
   );
 };

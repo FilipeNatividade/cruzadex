@@ -3,9 +3,11 @@ import {
   LeftHeader,
   RightHeader,
   FirstDiv,
+  ContainerButtonsRightHeader,
+  ContainerButtonQRcode,
   ButtonStore,
-  ButtonsRightHeader,
-  SecondaryDiv,
+  ImgButtonStore,
+  QrCode,
 } from "./style";
 
 const Header = () => {
@@ -15,16 +17,20 @@ const Header = () => {
       <RightHeader>
         <FirstDiv></FirstDiv>
         <p>Baixe e teste grátis</p>
-        <ButtonsRightHeader>
-          <ButtonStore>
-            <img src="./images/google_play.svg" alt="google_play" />
-            <SecondaryDiv></SecondaryDiv>
-          </ButtonStore>
-          <ButtonStore>
-            <img src="./images/apple_store.svg" alt="apple_store" />
-            <SecondaryDiv></SecondaryDiv>
-          </ButtonStore>
-        </ButtonsRightHeader>
+        <ContainerButtonsRightHeader>
+          <ContainerButtonQRcode>
+            <ButtonStore>
+              <ImgButtonStore src="./images/google_play.svg" alt="google_play" />
+            </ButtonStore>
+            <QrCode src="/images/qrcode_mercadatadigital.png" />
+          </ContainerButtonQRcode>
+          <ContainerButtonQRcode>
+            <ButtonStore>
+              <ImgButtonStore src="./images/apple_store.svg" alt="apple_store" />
+            </ButtonStore>
+            <QrCode src="/images/qrcode_mercadatadigital.png" />
+          </ContainerButtonQRcode>
+        </ContainerButtonsRightHeader>
       </RightHeader>
     </Container>
   );
